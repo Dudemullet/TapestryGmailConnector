@@ -1,0 +1,11 @@
+{
+  "id": "com.gmail",
+  "display_name": "Gmail",
+  "site": "https://mail.google.com/mail/feed/atom",
+  "service_name": "Gmail",
+  "default_color": "slate",
+  "icon": "https://lh3.googleusercontent.com/0rpHlrX8IG77awQMuUZpQ0zGWT7HRYtpncsuRnFo6V3c8Lh2hPjXnEuhDDd-OsLz1vua4ld2rlUYFAaBYk-rZCODmi2eJlwUEVsZgg",
+  "needs_verification": true,
+  "verify_variables": true,
+  "check_interval": 300
+}

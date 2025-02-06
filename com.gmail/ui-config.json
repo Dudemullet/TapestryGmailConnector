@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    {
+      "name": "userEmail",
+      "type": "text",
+      "prompt": "email",
+      "placeholder": "your email@gmail.com"
+    },
+    {
+      "name": "appPassword",
+      "type": "text",
+      "prompt": "app password",
+      "placeholder": "16 digits"
+    }
+  ]
+}
