@@ -28,7 +28,10 @@ function load() {
   sendRequest(feedUrl, null, null, authHeader)
     .then((xmlResponse) => {
       const jsonObject = xmlParse(xmlResponse);
-      if (jsonObject.feed != null) {
+      let feedIsNotEmpty = jsonObject.feed != null;
+      let feedhasPosts = jsonObject.feed.fullcount != "0";
+
+      if (feedIsNotEmpty && feedhasPosts) {
         const feedName = jsonObject.feed.title;
         const linkAttrs = jsonObject.feed.link$attrs;
         const feedUrl = linkAttrs.href;
